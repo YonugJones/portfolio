@@ -1,3 +1,4 @@
+import CustomCursor from './components/CustomCursor'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import About from './sections/About'
@@ -8,7 +9,8 @@ import Skills from './sections/Skills'
 
 export default function App() {
   return (
-    <div className='min-h-screen px-10 py-5'>
+    <div className='min-h-screen px-15 py-5'>
+      <CustomCursor />
       <NavBar />
       <main>
         <Hero />

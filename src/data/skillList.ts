@@ -5,6 +5,7 @@ import reactIcon from '../assets/react.png'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import nodejs from '../assets/nodejs.png'
+import ex from '../assets/ex.png'
 import restapi from '../assets/rest-api.png'
 import tailwind from '../assets/tailwindcss.png'
 import figma from '../assets/figma.png'
@@ -21,14 +22,15 @@ export const skillList: Skill[] = [
   { id: 3, name: 'React', icon: reactIcon },
   { id: 4, name: 'HTML', icon: html },
   { id: 5, name: 'CSS', icon: css },
-  { id: 6, name: 'NodeJS', icon: nodejs },
-  { id: 7, name: 'Rest API', icon: restapi },
-  { id: 8, name: 'TailwindCSS', icon: tailwind },
-  { id: 9, name: 'Figma', icon: figma },
-  { id: 10, name: 'Git', icon: git },
-  { id: 11, name: 'Jest', icon: jest },
-  { id: 12, name: 'PostgreSQL', icon: postgresql },
-  { id: 13, name: 'UI / UX', icon: uiux },
-  { id: 14, name: 'Photoshop', icon: ps },
-  { id: 15, name: 'Ableton Live', icon: live },
+  { id: 6, name: 'TailwindCSS', icon: tailwind },
+  { id: 7, name: 'Node.JS', icon: nodejs },
+  { id: 8, name: 'Express.JS', icon: ex },
+  { id: 9, name: 'Rest API', icon: restapi },
+  { id: 10, name: 'Figma', icon: figma },
+  { id: 11, name: 'Git', icon: git },
+  { id: 12, name: 'Jest', icon: jest },
+  { id: 13, name: 'PostgreSQL', icon: postgresql },
+  { id: 14, name: 'UI / UX', icon: uiux },
+  { id: 15, name: 'Photoshop', icon: ps },
+  { id: 16, name: 'Ableton Live', icon: live },
 ]

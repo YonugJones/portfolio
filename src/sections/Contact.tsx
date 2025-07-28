@@ -1,6 +1,7 @@
 const Contact = () => {
   return (
-    <div>
+    <div id='contact' className='scroll-mt-16'>
+      <h1 className='text-3xl text-center'>Contact</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

@@ -2,7 +2,7 @@ import heroImage from '../assets/hero-image.png'
 
 const Hero = () => {
   return (
-    <div className='py-10'>
+    <div id='hero' className='py-10 scroll-mt-16'>
       <div className='grid grid-cols-1 md:grid-cols-[1fr_300px] gap-6 items-center'>
         <div>
           <h2 className='text-lg text-[var(--dark-three)]'>
@@ -14,18 +14,18 @@ const Hero = () => {
           </h2>
           <p className='mt-4 text-sm'>
             I am a front-end web developer fascinated with feelings,
-            connectivity, and textures. Based in Chicago, my background in
-            managing a custom bakery and designing special event cakes taught me
-            the power of storytelling through theme and design. This, combined
-            with a love of math and problem-solving, lead me to software
-            development where I can now focus that energy on user experience
+            connectivity, and textures. I've always been obsessed with
+            fascilitating environments and finding items that seem to perfectly
+            fit into a space, kind of like a puzzle piece. Along with a love of
+            math and problem-solving, the universe showed me an opportunity to
+            combine those things into a career.
           </p>
         </div>
-        <div className='w-[200px] h-[200px] mx-auto md:w-[300px] md:h-[300px]'>
+        <div className='w-full h-full object-cover rounded-full shadow-[0_4px_10px_var(--dark-four)] hover:shadow-[0_8px_20px_var(--dark-four)] transition-shadow duration-300'>
           <img
             src={heroImage}
             alt='Picture of Peter Kerfoot'
-            className='w-full h-full object-cover rounded-full'
+            className='w-full h-full object-cover rounded-full shadow-[0_4px_10px_var(--dark-four)]'
           />
         </div>
       </div>

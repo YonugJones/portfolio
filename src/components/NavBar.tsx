@@ -30,10 +30,18 @@ const NavBar = () => {
       } bg-transparent backdrop-blur-sm px-10 py-4 flex justify-end items-center`}
     >
       <ul className='flex gap-10'>
-        <li className='font-normal text-[var(--dark-four)]'>About</li>
-        <li className='font-normal text-[var(--dark-four)]'>Skills</li>
-        <li className='font-normal text-[var(--dark-four)]'>Projects</li>
-        <li className='font-normal text-[var(--dark-four)]'>Contact</li>
+        <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>
+          <a href='#about'>About</a>
+        </li>
+        <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>
+          <a href='#skills'>Skills</a>
+        </li>
+        <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>
+          <a href='#projects'>Projects</a>
+        </li>
+        <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>
+          <a href='#contact'>Contact</a>
+        </li>
         <li>
           <button
             type='button'

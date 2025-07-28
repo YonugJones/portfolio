@@ -2,8 +2,8 @@ import { skillList } from '../data/skillList'
 
 const Skills = () => {
   return (
-    <div className='py-10'>
-      <h1 className='text-3xl text-center pb-2'>Skills</h1>
+    <div id='skills' className='pt-10 pb-15 scroll-mt-16'>
+      <h1 className='text-3xl text-center pb-15'>Skills</h1>
       <div className='grid grid-cols-3 gap-6'>
         {skillList.map((skill) => (
           <div key={skill.id} className='flex flex-col items-center'>
