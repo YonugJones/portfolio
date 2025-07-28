@@ -15,17 +15,17 @@ const About = () => {
         <span className='font-medium text-[var(--dark-three)]'>I am</span>{' '}
         currently working on finishing a meta front end certification program.
         I've created various front end and full stack applications to highlight
-        my abilities behind the console. I'm also working on steadily working on
-        projects for small companies around me
+        my abilities behind the console. I'm also working on helping the smaller
+        business in my lovely neighborhood of Bridgeport.
       </p>
       <br />
       <p>
         <span className='font-medium text-[var(--dark-three)]'>I hope to</span>{' '}
-        finish creating a user database meets social media app for people living
-        with hemophilia, a stressful and at times debilitating disease which
-        affects the life of about 1 in 5000 people worldwide. I'd like to create
-        useful features and environemtns for people who are not able to be
-        mobile and may feel isolated
+        finish creating my 'user database meets social media app' for people
+        living with hemophilia, a stressful and at times debilitating disease
+        which affects the life of about 1 in 5000 people worldwide. I'd like to
+        create useful features and environments for people who are immobile and
+        dealing with isolation
       </p>
     </div>
   )
