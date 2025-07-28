@@ -13,6 +13,7 @@ import jest from '../assets/jest.png'
 import postgresql from '../assets/postgresql.png'
 import uiux from '../assets/ui-ux.png'
 import ps from '../assets/ps.png'
+import live from '../assets/live.png'
 
 export const skillList: Skill[] = [
   { id: 1, name: 'JavaScript', icon: js },
@@ -29,4 +30,5 @@ export const skillList: Skill[] = [
   { id: 12, name: 'PostgreSQL', icon: postgresql },
   { id: 13, name: 'UI / UX', icon: uiux },
   { id: 14, name: 'Photoshop', icon: ps },
+  { id: 15, name: 'Ableton Live', icon: live },
 ]
