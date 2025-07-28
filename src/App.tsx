@@ -8,13 +8,15 @@ import Skills from './sections/Skills'
 
 export default function App() {
   return (
-    <div className='h-screen'>
+    <div className='min-h-screen px-10 py-5'>
       <NavBar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
     </div>
   )
