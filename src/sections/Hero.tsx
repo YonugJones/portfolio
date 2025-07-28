@@ -12,7 +12,7 @@ const Hero = () => {
           <h2 className='text-xl mt-2 font-medium text-[var(--dark-four)]'>
             Web Developer • UX/UI Designer
           </h2>
-          <p className='mt-4'>
+          <p className='mt-4 text-sm'>
             I am a front-end web developer fascinated with feelings,
             connectivity, and textures. Based in Chicago, my background in
             managing a custom bakery and designing special event cakes taught me
@@ -21,7 +21,7 @@ const Hero = () => {
             development where I can now focus that energy on user experience
           </p>
         </div>
-        <div className='w-[300px] h-[300px] mx-auto'>
+        <div className='w-[200px] h-[200px] mx-auto md:w-[300px] md:h-[300px]'>
           <img
             src={heroImage}
             alt='Picture of Peter Kerfoot'
