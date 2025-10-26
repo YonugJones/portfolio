@@ -27,7 +27,7 @@ const NavBar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-transform duration-300 ${
         show ? 'translate-y-0' : '-translate-y-full'
-      } bg-transparent backdrop-blur-sm px-10 py-4 flex justify-end items-center`}
+      } bg-gradient-to-b from-[var(--dark-bg)]/80 to-transparent backdrop-blur-sm px-10 py-4 flex justify-end items-center`}
     >
       <ul className='flex gap-10'>
         <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>

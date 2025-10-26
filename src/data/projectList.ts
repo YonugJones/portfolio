@@ -1,13 +1,16 @@
 import { type Project } from '../types/projectType'
+import chessAppPic from '../assets/chess-app-pic.png'
 
 export const projectList: Project[] = [
   {
     id: 1,
-    imageUrl: 'https://placehold.co/400x200',
+    imageUrl: chessAppPic,
     name: 'Chess',
     description:
       'This is a playable game of chess, influenced by the UI of Chess.com and Lichess.org, two of the most popular apps online for playing chess. Features include a clean user interface, move previews, move history and move jumping, undo, and a winning delcaration',
     tools: ['TypeScript ', 'JavaScript ', 'React ', 'Tailwind CSS'],
+    githubUrl: 'https://github.com/YonugJones/chess-app',
+    liveDemo: 'https://chess-app-five-phi.vercel.app/',
   },
   {
     id: 2,

@@ -9,17 +9,19 @@ import Skills from './sections/Skills'
 
 export default function App() {
   return (
-    <div className='min-h-screen px-15 py-5'>
+    <>
       <CustomCursor />
-      <NavBar />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+      <div className='min-h-screen px-15 py-5'>
+        <NavBar />
+        <main>
+          <Hero />
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </>
   )
 }

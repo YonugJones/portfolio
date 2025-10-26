@@ -2,8 +2,8 @@ import heroImage from '../assets/hero-image.png'
 
 const Hero = () => {
   return (
-    <div id='hero' className='py-10 scroll-mt-16'>
-      <div className='grid grid-cols-1 md:grid-cols-[1fr_300px] gap-6 items-center'>
+    <div id='hero' className='py-25 scroll-mt-16'>
+      <div className='grid grid-cols-1 md:grid-cols-[1fr_300px] gap-20 items-center'>
         <div>
           <h2 className='text-lg text-[var(--dark-three)]'>
             Hello! My name is

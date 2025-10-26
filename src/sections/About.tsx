@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div id='about' className='py-10 scroll-mt-16'>
       <h1 className='text-3xl text-center pb-15'>About Me</h1>
-      <div className='grid grid-cols-2 gap-10 pb-10'>
+      <div className='grid grid-cols-2 gap-10 pb-20'>
         <p className='text-sm'>
           <span className='font-medium text-[var(--dark-four)]'>I began</span>{' '}
           as a general manager at a bakery where I worked with patrons to design
