@@ -28,7 +28,7 @@ const Projects = () => {
                 <span className='font-medium'>{project.tools}</span>
               </p>
               <p className='text-left text-sm'>{project.description}</p>
-              <div className='flex'>
+              <div className='flex gap-2'>
                 {project.githubUrl && (
                   <a
                     href={project.githubUrl}
@@ -37,6 +37,16 @@ const Projects = () => {
                     className='mt-3 text-[var(--dark-three)]'
                   >
                     <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                )}
+                {project.liveDemo && (
+                  <a
+                    href={project.liveDemo}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='mt-3 text-[var(--dark-three)]'
+                  >
+                    Live Demo
                   </a>
                 )}
               </div>

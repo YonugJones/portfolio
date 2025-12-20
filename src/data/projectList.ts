@@ -39,11 +39,4 @@ export const projectList: Project[] = [
     ],
     githubUrl: 'https://github.com/YonugJones/hemo-bleed-app',
   },
-  {
-    id: 4,
-    imageUrl: 'https://placehold.co/400x200',
-    name: 'Project Three',
-    description: 'Description for the third project',
-    tools: ['toolOne ', 'toolTwo ', 'toolThree'],
-  },
 ]
