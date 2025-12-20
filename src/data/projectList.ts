@@ -1,4 +1,4 @@
-import { type Project } from '../types/projectType'
+import type { Project } from '../types'
 import chessAppPic from '../assets/chess-app-pic.png'
 import imageGalleryPic from '../assets/image-gallery-pic.png'
 

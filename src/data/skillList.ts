@@ -1,4 +1,4 @@
-import { type Skill } from '../types/skillType'
+import type { Skill } from '../types'
 import js from '../assets/js.png'
 import ts from '../assets/ts.png'
 import reactIcon from '../assets/react.png'
