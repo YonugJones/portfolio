@@ -1,5 +1,6 @@
 import { type Project } from '../types/projectType'
 import chessAppPic from '../assets/chess-app-pic.png'
+import imageGalleryPic from '../assets/image-gallery-pic.png'
 
 export const projectList: Project[] = [
   {
@@ -14,6 +15,16 @@ export const projectList: Project[] = [
   },
   {
     id: 2,
+    imageUrl: imageGalleryPic,
+    name: 'Image Gallery',
+    description:
+      'This is an image gallery where users can search royalty free images courtesy of Pixabay images',
+    tools: ['TypeScript ', 'JavaScript ', 'React ', 'Tailwind CSS'],
+    githubUrl: 'https://github.com/YonugJones/image-gallery',
+    liveDemo: 'https://image-gallery-ten-ochre.vercel.app/',
+  },
+  {
+    id: 3,
     imageUrl: 'https://placehold.co/400x200',
     name: 'Hemophilia Bleed Social',
     description:
@@ -29,7 +40,7 @@ export const projectList: Project[] = [
     githubUrl: 'https://github.com/YonugJones/hemo-bleed-app',
   },
   {
-    id: 3,
+    id: 4,
     imageUrl: 'https://placehold.co/400x200',
     name: 'Project Three',
     description: 'Description for the third project',
