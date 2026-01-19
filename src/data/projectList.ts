@@ -1,6 +1,7 @@
 import type { Project } from '../types'
 import chessAppPic from '../assets/chess-app-pic.png'
 import imageGalleryPic from '../assets/image-gallery-pic.png'
+import worldNewsPic from '../assets/world-news-pic.png'
 
 export const projectList: Project[] = [
   {
@@ -25,18 +26,12 @@ export const projectList: Project[] = [
   },
   {
     id: 3,
-    imageUrl: 'https://placehold.co/400x200',
-    name: 'Hemophilia Bleed Social',
+    imageUrl: worldNewsPic,
+    name: 'World News',
     description:
-      'This is intended to help connect users with hemophilia, suffering from a bleed with one another. The feeling of isolation can weigh heavily on people dealing with such a unique type of injury. Sometimes the best adivce can come from people who have dealt with similar experiences. This app aims to connect people and be used as a community research tool to aid with recovery during the acute and chronic stages of joint and muscle bleeds',
-    tools: [
-      'TypeScript ',
-      'JavaScript ',
-      'React ',
-      'NodeJS ',
-      'Express ',
-      'PostgreSQL',
-    ],
-    githubUrl: 'https://github.com/YonugJones/hemo-bleed-app',
+      'This is a world news application using a free world news API to showcase a clean user interface and fetch patterns',
+    tools: ['TypeScript ', 'JavaScript ', 'React ', 'TailwindCSS'],
+    githubUrl: 'https://github.com/YonugJones/world-news',
+    liveDemo: 'world-news-2obivokcp-pks-projects-7213db00.vercel.app/',
   },
 ]
