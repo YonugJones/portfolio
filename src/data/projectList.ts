@@ -32,6 +32,6 @@ export const projectList: Project[] = [
       'This is a world news application using a free world news API to showcase a clean user interface and fetch patterns',
     tools: ['TypeScript ', 'JavaScript ', 'React ', 'TailwindCSS'],
     githubUrl: 'https://github.com/YonugJones/world-news',
-    liveDemo: 'world-news-2obivokcp-pks-projects-7213db00.vercel.app/',
+    liveDemo: 'https://world-news-2obivokcp-pks-projects-7213db00.vercel.app/',
   },
 ]
