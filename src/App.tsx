@@ -2,7 +2,7 @@ import CustomCursor from './components/CustomCursor'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import About from './sections/About'
-import Contact from './sections/Contact'
+// import Contact from './sections/Contact'
 import Hero from './sections/Hero'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
@@ -18,7 +18,7 @@ export default function App() {
           <About />
           <Skills />
           <Projects />
-          <Contact />
+          {/* <Contact /> */}
         </main>
         <Footer />
       </div>
