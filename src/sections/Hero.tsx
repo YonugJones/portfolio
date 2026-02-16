@@ -13,14 +13,12 @@ const Hero = () => {
             Web Developer • UX/UI Designer
           </h2>
           <p className='mt-4 text-lg'>
-            I am a front-end web developer fascinated with feelings,
-            connectivity, and textures. I've always been obsessed with
-            fascilitating environments and finding items that seem to perfectly
-            fit into a space, kind of like a puzzle piece. I specialize in
-            building responsive web applications using React, TypeScript, and
-            modern API-driven architectures. Along with a love of math and
-            problem-solving, the universe showed me an opportunity to combine
-            those things into a career.
+            I am a front-end web developer specializing in React, TypeScript,
+            and modern UI architecture while creating responsive web
+            applications. I'm fascinated with feelings, connectivity, and
+            textures. Along with a love of math and problem-solving, the
+            universe showed me an opportunity to combine those elements into a
+            career.
           </p>
         </div>
         <div className='w-full h-full object-cover rounded-full shadow-[0_4px_10px_var(--dark-four)] hover:shadow-[0_8px_20px_var(--dark-four)] transition-shadow duration-300'>

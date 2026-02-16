@@ -1,11 +1,12 @@
 import { projectList } from '../data/projectList'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faHelmetSafety } from '@fortawesome/free-solid-svg-icons'
 
 const Projects = () => {
   return (
     <div id='projects' className='py-10 scroll-mt-16'>
-      <h1 className='text-3xl text-center md:pb-15'>Projects</h1>
+      <h1 className='text-4xl font-medium text-center md:pb-15'>Projects</h1>
       <div>
         {projectList.map((project) => (
           <div
@@ -23,12 +24,12 @@ const Projects = () => {
               <h2 className='text-xl font-semibold mb-2 text-center md:text-left'>
                 {project.name}
               </h2>
-              <p className='text-sm text-[var(--dark-four)] mb-2 text-center md:text-left'>
+              <p className='text-lg text-[var(--dark-four)] mb-2 text-center md:text-left'>
                 <span className='text-[var(--dark-three)]'>Made with:</span>{' '}
                 <span className='font-medium'>{project.tools}</span>
               </p>
-              <p className='text-left text-sm'>{project.description}</p>
-              <div className='flex gap-2'>
+              <p className='text-left text-xl'>{project.description}</p>
+              <div className='flex gap-4'>
                 {project.githubUrl && (
                   <a
                     href={project.githubUrl}
@@ -36,7 +37,7 @@ const Projects = () => {
                     rel='noopener noreferrer'
                     className='mt-3 text-[var(--dark-three)]'
                   >
-                    <FontAwesomeIcon icon={faGithub} />
+                    <FontAwesomeIcon icon={faGithub} /> Github
                   </a>
                 )}
                 {project.liveDemo && (
@@ -46,7 +47,7 @@ const Projects = () => {
                     rel='noopener noreferrer'
                     className='mt-3 text-[var(--dark-three)]'
                   >
-                    Live Demo
+                    <FontAwesomeIcon icon={faHelmetSafety} /> Live Demo
                   </a>
                 )}
               </div>

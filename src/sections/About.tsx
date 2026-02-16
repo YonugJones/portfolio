@@ -7,27 +7,28 @@ const About = () => {
       <div className='grid grid-cols-2 gap-10 pb-20'>
         <p className='text-lg'>
           <span className='font-medium text-[var(--dark-four)]'>I began</span>{' '}
-          as a general manager at a bakery where I worked with patrons to design
-          cakes for special events. I learned how to balance the needs of the
-          client with a budget and deliver an experience that left everyone
-          happy. I worked with wholesale clients with large event and wedding
-          orders and learned how to perform under pressure.
+          my path as a general manager at a bakery, where I worked closely with
+          clients to design custom cakes for large events and weddings. That
+          experience taught me how to balance creative vision with real
+          constraints — timelines, budgets, and client expectations — while
+          delivering results under pressure.
         </p>
         <p className='text-lg'>
-          <span className='font-medium text-[var(--dark-four)]'>I am</span>{' '}
-          currently developing a creativity-focused social media platform
-          inspired by communities like Flickr and Tumblr — spaces where people
-          can connect and share authentically. Along the way, I've built
-          multiple front-end and full-stack applications that demonstrate my
-          ability to design, build, and deliver software from the ground up.
+          <span className='font-medium text-[var(--dark-four)]'>Today</span> I'm
+          a front-end developer focused on building responsive, user-centered
+          web applications. I'm currently developing a creativity-focused social
+          media platform inspired by early community-driven spaces like Flickr
+          and Tumblr. Along the way, I've built multiple front-end and
+          full-stack applications that demonstrate my ability to design,
+          implement, and deploy modern web software.
         </p>
       </div>
       <p className='text-lg text-center'>
-        <span className='font-medium text-[var(--dark-four)]'>I am</span>{' '}
-        excited to collaborate with digitally savvy teams who care about
-        thoughtful design and meaningful user experiences. My goal is to build
-        tools that help creators express themselves authentically through
-        intentional, design-first development.
+        <span className='font-medium text-[var(--dark-four)]'>I'm</span>{' '}
+        especially interested in building tools that help people express
+        themselves meaningfully online. I enjoy working at the intersection of
+        design and engineering — creating thoughtful, intuitive interfaces
+        backed by clean, maintainable code.
       </p>
     </div>
   )
