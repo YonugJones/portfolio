@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMoon } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import { useEffect, useState } from 'react'
 
 const NavBar = () => {
@@ -39,10 +39,10 @@ const NavBar = () => {
         <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>
           <a href='#projects'>Projects</a>
         </li>
-        <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>
+        {/* <li className='font-normal text-[var(--dark-three)] hover:text-[var(--dark-four)] transition-colors duration-300'>
           <a href='#contact'>Contact</a>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <button
             type='button'
             aria-label='Toggle dark mode'
@@ -50,7 +50,7 @@ const NavBar = () => {
           >
             <FontAwesomeIcon icon={faMoon} className='w-6 h-5' />
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )
