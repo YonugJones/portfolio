@@ -14,11 +14,17 @@ const Projects = () => {
             className='flex flex-col-reverse md:grid md:grid-cols-2 gap-6 pb-20'
           >
             <div className='w-full h-auto'>
-              <img
-                src={project.imageUrl}
-                alt={project.name}
-                className='w-full h-auto object-cover rounded-md'
-              />
+              <a
+                href={project.liveDemo ? project.liveDemo : project.githubUrl}
+                target='_blank'
+                rel='noopener noferrer'
+              >
+                <img
+                  src={project.imageUrl}
+                  alt={project.name}
+                  className='w-full h-auto object-cover rounded-md'
+                />
+              </a>
             </div>
             <div className='flex flex-col justify-center md:items-start items-center'>
               <h2 className='text-xl font-semibold mb-2 text-center md:text-left'>

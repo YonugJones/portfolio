@@ -22,11 +22,17 @@ const Hero = () => {
           </p>
         </div>
         <div className='w-full h-full object-cover rounded-full shadow-[0_4px_10px_var(--dark-four)] hover:shadow-[0_8px_20px_var(--dark-four)] transition-shadow duration-300'>
-          <img
-            src={heroImage}
-            alt='Picture of Peter Kerfoot'
-            className='w-full h-full object-cover rounded-full shadow-[0_4px_10px_var(--dark-four)]'
-          />
+          <a
+            href='https://github.com/YonugJones'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              src={heroImage}
+              alt='Picture of Peter Kerfoot'
+              className='w-full h-full object-cover rounded-full shadow-[0_4px_10px_var(--dark-four)]'
+            />
+          </a>
         </div>
       </div>
     </div>
