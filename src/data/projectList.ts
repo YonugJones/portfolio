@@ -1,4 +1,5 @@
 import type { Project } from '../types'
+import vinylBasePic from '../assets/vinyl-base-pic.png'
 import socialAppPic from '../assets/social-app-frame-pic.png'
 import imageGalleryPic from '../assets/image-gallery-pic.png'
 import worldNewsPic from '../assets/world-news-pic.png'
@@ -7,6 +8,26 @@ import chessAppPic from '../assets/chess-app-pic.png'
 export const projectList: Project[] = [
   {
     id: 1,
+    imageUrl: vinylBasePic,
+    name: 'Vinyl Base',
+    description:
+      'An app for beautifully organizing and sorting through your record collection similar to discogs but free from marketplace distractions.',
+    tools: [
+      'NextJs ',
+      'Typescript ',
+      'Javascript ',
+      'React ',
+      'Tailwind CSS ',
+      'PostgreSQL ',
+      'Prisma ',
+      'Shadcn ',
+      'Lucide-React',
+    ],
+    githubUrl: 'https://github.com/YonugJones/vinyl-base',
+    liveDemo: 'https://vinyl-base.vercel.app/',
+  },
+  {
+    id: 2,
     imageUrl: socialAppPic,
     name: 'Social App',
     description:
@@ -26,7 +47,7 @@ export const projectList: Project[] = [
     liveDemo: 'https://social-app-frame.vercel.app/',
   },
   {
-    id: 2,
+    id: 3,
     imageUrl: imageGalleryPic,
     name: 'Image Gallery',
     description:
@@ -36,17 +57,17 @@ export const projectList: Project[] = [
     liveDemo: 'https://image-gallery-ten-ochre.vercel.app/',
   },
   {
-    id: 3,
+    id: 4,
     imageUrl: worldNewsPic,
     name: 'World News',
     description:
       'This is a world news application using a free world news API to showcase a clean user interface and fetch patterns',
     tools: ['TypeScript ', 'JavaScript ', 'React ', 'TailwindCSS'],
     githubUrl: 'https://github.com/YonugJones/world-news',
-    liveDemo: 'https://world-news-2obivokcp-pks-projects-7213db00.vercel.app/',
+    liveDemo: 'https://world-news-ruddy.vercel.app/',
   },
   {
-    id: 4,
+    id: 5,
     imageUrl: chessAppPic,
     name: 'Chess',
     description:
